@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body,html{
+	min-height:100%;
+ }
+
+body {
+	font: 400 20px/1.3 'Bungee Inline', Arial, sans-serif;
+	background-color: #bfc1c4;
+	max-width: 800px;
+	margin: 0 auto;
+	background: url('../img/checkers.jpg') no-repeat;
+	color: #FFF;
+}
+.ba-logo {
+	letter-spacing: 5px;
+}
+.ba-vers {
+	text-align: right;
+}
+.ba-table {
+	max-width:100%;
+	height: 800px;
+	border: 7px solid #000;
+	margin-top: 20px;
+	margin-right: auto;
+}
+.black {
+	float:left;
+	width:12.5%;
+	height:12.5%;
+	background-color: #5f1600;
+}
+.white {
+	float:left;
+	width:12.5%;
+	height:12.5%;
+	background-color: #e8d8c8;
+}
+.ba-check-black{
+	float: left;
+	width:75%;
+	height:75%;
+	margin-left: 12.5%;
+	margin-top: 12.5%;
+	background-color: #000;
+	border-radius:50%;
+	box-shadow: 0 0 5px 2px rgba(192,192,192,.6);
+}
+.ba-check-white{
+	float: left;
+	width:75%;
+	height:75%;
+	margin-left: 12.5%;
+	margin-top: 12.5%;
+	background-color: #fff;
+	border-radius:50%;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,0.6);
+}
+.ba-check-black:hover,
+.ba-check-white:hover{
+	transform: scale(.9);
+	cursor:pointer;
+}
+.ba-check-black:active,
+.ba-check-white:active {
+	background: url('../img/go.png');
+	background-size: cover;
+}
+.ba-bq {
+	font-family: 'Indie Flower', Arial, sans-serif;
+	text-align: center;
+}
